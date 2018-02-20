@@ -10,8 +10,8 @@ Rails.application.routes.draw do
 
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
-
-  get '/cool' => 'gif#cool'
-  get '/sweet' => 'gif#sweet'
+  # 
+  # get '/cool' => 'gif#cool'
+  # get '/sweet' => 'gif#sweet'
 
 end
